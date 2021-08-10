@@ -1,0 +1,115 @@
+/* .body__sliderandnavigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* here the height and width is responsible for the height and width of container for the whole slider    */
+.body__slider {
+  display: flex;
+  height: 55vh;
+  max-width: 100vw;
+  z-index: -1;
+}
+
+.body__navigation {
+  display: flex;
+  width: 200px;
+  position: initial;
+  background-color: white;
+}
+
+.random {
+  width: 200px;
+  position: fixed;
+  background-color: black;
+  z-index: 1;
+  left: 172px;
+  top: 95px;
+  right: 0;
+  bottom: 0;
+}
+
+.body__firstnavigationlinks {
+  display: flex;
+  height: 55vh;
+  flex-direction: column;
+}
+
+.body__secondnavigationlinks {
+  display: flex;
+  height: 54.7vh;
+  width: 200px;
+  flex-direction: column;
+  position: absolute;
+  background-color: whitesmoke;
+  z-index: +1;
+  left: 272px;
+  top: 95px;
+  right: 0;
+  bottom: 0;
+  border: 1px solid black;
+}
+
+.body__secondnavigationlinks > p:hover {
+  color: red;
+}
+
+.body__navigation:hover .body__secondnavigationlinks {
+  z-index: +1;
+}
+
+.body__navigationLinks__container > p:hover .random {
+  color: red;
+  z-index: +1;
+}
+
+.body__navigationLinks__container:hover .random {
+  z-index: +1;
+}
+
+.body__navigationLinks__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.body__navigationLinks__container > p {
+  display: flex;
+  flex: 0.85;
+  font-size: 0.8rem;
+  padding: 6px;
+  width: 100%;
+  cursor: pointer;
+  text-indent: 2px;
+}
+
+.body__navigation__arrowIcon {
+  align-items: flex-end;
+  flex: 0.1;
+  margin-top: 2px;
+  display: flex;
+  font-size: small;
+  z-index: -999;
+}
+
+.second__navigation > p {
+  height: 21px;
+  padding: 4px;
+  font-size: 0.8rem;
+}
+
+.second__navigation > p:hover {
+  color: #1e9cb7;
+  background-color: #d8d5d5;
+  text-indent: 10px;
+}
+
+/* .body__navigationLinks__container:hover {
+  color: #1e9cb7;
+  background-color: #d8d5d5;
+} */
+
+.body__navigationLinks__container:hover .body__navigation__arrowIcon {
+  z-index: +1;
+} */

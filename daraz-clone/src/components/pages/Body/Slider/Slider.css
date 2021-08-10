@@ -1,0 +1,9 @@
+/* here the height is responsible for the exact slide part  */
+
+.slidercontent {
+  position: relative;
+  height: 58vh;
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
